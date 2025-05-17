@@ -1,0 +1,58 @@
+  <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Contato - Sua Agência</title>
+  <!-- Link para o mesmo CSS que você já usa no site -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="contato.css"> <!-- esse é só para a parte do contato -->
+</head>
+<body>
+
+  <header>
+    <nav id="navbar" class="navegacao">
+      <img src="/public/img/logowd.png" alt="logo wd" class="logo">
+      <ul class="menu">
+        <li><a href="index.html" class="menu-link">Início</a></li>
+        <li><a href="index.html#historia" class="menu-link">Quem Somos</a></li>
+        <li><a href="index.html#projetos" class="menu-link">Projetos</a></li>
+        <li><a href="contato.html" class="menu-link">Contato</a></li>
+        <li><a href="index.html#orcamento" class="menu-link">Orçamento</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <main>
+    <section class="contato-container">
+      <div class="contato-info">
+        <h2>Fale com a gente</h2>
+        <p><strong>Telefone:</strong> (61) 99114-1445</p>
+        <p><strong>Email:</strong> wddesignergrafic@gmail.com</p>
+        <p>Nos envie uma mensagem e retornaremos o mais breve possível.</p>
+      </div>
+
+    <section id="contatos" class="contatos">
+        <!-- <h2 class="contatos-titulo">Entre em Contato</h2> -->
+        <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
+            <div class="grupo-form">
+                <input placeholder="Nome" class="campo-form" id="nome">
+            </div>
+
+            <div class="grupo-form">
+                <textarea class="campo-form" placeholder="Digite sua mensagem" rows="6" id="mensagem"></textarea>
+            </div>
+
+            <button type="submit" class="botao-form">Enviar Watsapp</button>
+        </form>
+    </section>
+
+  <footer>
+    <p>&copy; 2025 WD Agência. Todos os direitos reservados.</p>
+  </footer>
+  <script src="enviar.js"></script>
+</body>
+</html>
+
+  
+

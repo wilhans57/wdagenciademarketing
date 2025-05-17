@@ -1,0 +1,124 @@
+.header nav ul{
+    display: flex;
+}
+
+.header nav ul li a{
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 10px 30px; 
+}
+
+.header nav  ul li a:hover{
+    color: #fff;
+}
+
+
+ @media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 0;
+    }
+
+    .logo {
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+}
+
+.sobre {
+    padding: 40px 20px;
+}
+
+.sobre-titulo {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--escuro);
+} 
+
+ .sobre-caixa p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+} 
+
+ @media (max-width: 768px) {
+  .servicos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .servicos {
+    grid-template-columns: 1fr;
+  }
+} 
+
+
+ @media (max-width:990px) {
+  .portfolio-section .tranding-slider-control .swiper-button-next {
+    left: 70% !important;
+    transform: translateX(-70%) !important;
+  }
+}
+
+@media (max-width:450px) {
+  .portfolio-section .tranding-slider-control .swiper-button-next {
+    left: 80% !important;
+    transform: translateX(-80%) !important;
+  }
+} 
+
+ @media (max-width:990px) {
+  .portfolio-section .tranding-slider-control .swiper-button-prev {
+    left: 30% !important;
+    transform: translateX(-30%) !important;
+  }
+}
+
+@media (max-width:450px) {
+  .portfolio-section .tranding-slider-control .swiper-button-prev {
+    left: 20% !important;
+    transform: translateX(-20%) !important;
+  }
+} 
+
+/* @media (max-width: 500px) {
+  .portfolio-section .tranding-slide {
+    width: 24rem !important;
+    height: 30rem !important;
+  } 
+
+   @media (max-width:1440px) {
+  .portfolio-section #tranding {
+    padding: 7rem 0;
+  }
+}
+
+@media (max-width:500px) {
+  .portfolio-section #tranding .tranding-slider {
+    height: 45rem;
+  }
+} 
+
+ @media (min-width: 1440px) {
+  html {
+    zoom: 1.5;
+  }
+}
+
+@media (min-width: 2560px) {
+  html {
+    zoom: 1.7;
+  }
+}
+
+@media (min-width: 3860px) {
+  html {
+    zoom: 2.5;
+  }
+} 
+
